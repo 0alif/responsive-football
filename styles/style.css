@@ -43,6 +43,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
+    /* margin: auto; */
 }
 .players {
     width: 330px;
@@ -70,4 +71,31 @@ body {
     font-size: 16px;
     line-height: 26px;
     margin-top: 10px;
+}
+/* footer */
+.footer-logo img {
+    width: 483.87px;
+    height: 110px;
+    display: block;
+    margin: auto;
+    margin-top: 158px;
+    margin-bottom: 20px;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+.links {
+    margin-right: 14px;
+}
+.fa-basketball-ball, .fa-instagram, .fa-twitter, .fa-youtube {
+    color: #969BAB;
+    font-size: 20px;
+}
+.footer-text {
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 63px;
 }
