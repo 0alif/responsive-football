@@ -77,6 +77,26 @@ body {
     line-height: 26px;
     margin-top: 10px;
 }
+/* form part */
+.form-text {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+input {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    border-color: blue;
+}
+.button {
+    background-color: blue;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
 /* footer part */
 .footer-logo img {
     width: 483.87px;
