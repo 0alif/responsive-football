@@ -11,6 +11,7 @@ body {
     background-color: rgb(1, 1, 180);
     display: flex;
     justify-content: space-between;
+    margin-bottom: 70px;
 }
 .banner-text p {
     color: #FFFFFF;
@@ -21,6 +22,11 @@ body {
     margin-left: 156px;
     /* margin-right: 102px; */
     margin-bottom: 27px;
+}
+.banner-text a:hover {
+    color: #f8045e;
+    background-color: orange;
+    transition: 0.5s;
 }
 .banner-img img {
     width: 556.01px;
@@ -43,7 +49,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
-    /* margin: auto; */
+    margin: auto;
 }
 .players {
     width: 330px;
@@ -52,7 +58,6 @@ body {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding-left: 15px;
     padding-top: 15px;
-    margin-top: 70px;
     margin-bottom: 27px;
 }
 .players img {
@@ -72,7 +77,7 @@ body {
     line-height: 26px;
     margin-top: 10px;
 }
-/* footer */
+/* footer part */
 .footer-logo img {
     width: 483.87px;
     height: 110px;
