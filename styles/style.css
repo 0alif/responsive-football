@@ -77,11 +77,31 @@ body {
     line-height: 26px;
     margin-top: 10px;
 }
+/* best player part */
+.best-player > p {
+    text-align: center;
+    font-size: 30px;
+}
+.player-details {
+    width: 600px;
+    height: 550px;
+    margin: auto;
+}
+.about img {
+    width: 550px;
+    display: block;
+    margin: auto;
+}
+.about h3 {
+    text-align: center;
+}
+
 /* form part */
 .form-text {
     text-align: center;
     font-size: 30px;
     color: blue;
+    margin-top: 40px;
 }
 input {
     display: block;
