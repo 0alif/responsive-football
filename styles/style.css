@@ -9,7 +9,7 @@ body {
 /* top part */
 .top-part {
     width: 100%;
-    background-color: rgb(1, 1, 180);
+    background-color: #2D25A0;
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
@@ -20,7 +20,7 @@ body {
     font-size: 64px;
     line-height: 80px;
     margin-top: 121px;
-    margin-left: 156px;
+    margin-left: 140px;
     /* margin-right: 102px; */
     margin-bottom: 27px;
 }
@@ -43,7 +43,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
-    margin-left: 156px;
+    margin-left: 140px;
 }
 /* players part */
 .players-list {
@@ -146,4 +146,48 @@ input {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 63px;
+}
+
+
+
+/* media query */
+
+/* tablets */
+
+@media only screen and (max-width:992px) {
+    .players-list {
+        display: grid;
+        grid-template-columns: 2, 1fr;
+    }
+}
+
+
+
+/* mobile phones */
+
+@media only screen and (max-width: 688px) {
+    .top-part {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .players-list {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      text-align: center;
+    }
+    .banner-text p {
+        font-size: 50px;
+        margin-left: 15px;
+    }
+    .banner-text a {
+        margin-left: 15px;
+    }
+    .players {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
 }
