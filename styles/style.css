@@ -8,6 +8,7 @@ body {
 }
 /* top part */
 .top-part {
+    width: 100%;
     background-color: rgb(1, 1, 180);
     display: flex;
     justify-content: space-between;
@@ -47,9 +48,9 @@ body {
 /* players part */
 .players-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 30px;
-    margin: auto;
+    grid-template-columns: repeat(3, 330px);
+    grid-column-gap: 60px;
+    justify-content: center;
 }
 .players {
     width: 330px;
